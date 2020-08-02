@@ -43,14 +43,14 @@ It contains 4 POST REST APIs
     "rating_base":5
 }**
 
-- To get Driver Aggregated Rating - need to input userID 
+- To get Driver Aggregated Rating - need to input userID  
  **Request URL-  {{url}}/api/rating/driver  
 Request Body- 
 {
  "userID":331
 }**
     
-- Rating from Driver- need to input 'userID', 'rideID', 'rating', 'rating base'
+- Rating from Driver- need to input 'userID', 'rideID', 'rating', 'rating base'  
 **Request URL- {{url}}/api/rating/driver/ride  
 Request Body- 
 {
