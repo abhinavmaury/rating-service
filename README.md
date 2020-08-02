@@ -1,2 +1,1 @@
 # rating-service
-# rating-service
