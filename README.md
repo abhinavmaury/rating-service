@@ -26,12 +26,12 @@ This service is using MySQL-
 4. The passenger should be able to see his aggregated rating based on all the rides he has taken.
 
 It contains 4 POST REST APIs
-- To get Passenger Aggregated Rating - need to input userID 
-    Request URL-  {{url}}/api/rating/passenger
+- To get Passenger Aggregated Rating - need to input userID  
+**Request URL-  {{url}}/api/rating/passenger  
     Request Body- 
     {
     "userID":123
-    }
+    }**
     
 - Rating from Passenger- need to input 'userID', 'rideID', 'rating', 'rating base'  
 **Request URL- {{url}}/api/rating/passenger/ride**  
